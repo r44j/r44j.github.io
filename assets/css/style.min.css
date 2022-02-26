@@ -6,6 +6,9 @@
  * @version 1.0.5
  * Copyright 2021. MIT licensed.
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
 @charset "UTF-8";
 .clear:after, .clear:before {
     content: " ";
@@ -876,7 +879,7 @@ html {
 }
 
 body {
-    font-family: Roboto Mono, monospace;
+    font-family: Gotham, monospace;
     font-size: .95rem;
     color: #2b2b2b;
     transition: all .4s ease-in .3s;
@@ -897,7 +900,6 @@ body {
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 html {
-    font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -1244,7 +1246,8 @@ nav a.active:after {
     border-bottom: 1px dashed #2b2b2b;
     padding: 2rem 0;
     position: relative;
-    display: block
+    display: block;
+    font-family: Merriweather;
 }
 
 
@@ -1654,7 +1657,6 @@ h1, h2, h3 {
 }
 
 * {
-    font-family: Roboto Mono, Courier, Helvetica, Arial, sans-serif;
     line-height: 1.5
 }
 
@@ -1698,7 +1700,8 @@ p {
     font-size: .95rem;
     font-weight: 400;
     line-height: 1.8;
-    margin-bottom: 1.8rem
+    margin-bottom: 1.8rem;
+    font-family: Merriweather, Canela Web, serif !important;
 }
 
 ul {
